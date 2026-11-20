@@ -593,7 +593,7 @@ export const defaultPortfolioData: PortfolioData = {
 		addressLines: ["Townhall, Mohammadpur", "Dhaka-1207, Bangladesh"],
 		addressNote:
 			"General area given for privacy; exact location not disclosed.",
-		mapsUrl: "https://maps.app.goo.gl/4oxo1KTCiHiAB5HZA",
+		mapsUrl: "https://maps.app.goo.gl/wrZaUEZt7tHZRjT2A",
 		githubUrl: "https://github.com/steve-A7",
 		githubRepoLabel: "GitHub · steve-A7",
 	},

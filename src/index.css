@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Spectral", "EB Garamond", Georgia, serif;
+  --font-garamond: "EB Garamond", Georgia, serif;
+  --font-lora: "Lora", Georgia, serif;
+  --font-sans: "Rajdhani", system-ui, -apple-system, sans-serif;
+  --font-cursive: "Caveat", cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #0d0f12;
+    color: #f4f4f5;
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #0d0f12;
+    color: #f4f4f5;
+    overflow-x: clip;
+  }
+
+  p,
+  li {
+    font-family: var(--font-lora);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-garamond {
+  font-family: var(--font-garamond);
+}
+
+.font-lora {
+  font-family: var(--font-lora);
+}
+
+.font-rajdhani {
+  font-family: var(--font-sans);
+}
+
+.font-cursive {
+  font-family: var(--font-cursive);
+}
+
+/* Signature 6518625.jpg geometric frame & CTA shapes */
+.shape-hero-frame {
+  border-top-left-radius: 76px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.shape-cta-leaf {
+  border-top-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/* Subtle dark-shaded atmospheric grid texture */
+.bg-dark-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
